@@ -2,7 +2,7 @@
 
 ## Description
 
-This Python script automates the downloading of image pages from archived book listings at the Internet Archive website, following specific URL patterns. Due to restrictions on the website, the script is designed to download a limited number of pages per day (10 pages per 24 hours) to comply with viewing restrictions. It manages multiple URLs and tracks download progress over multiple days, storing each page's image in separate directories named after each book's unique identifier.
+This Python script automates the downloading of image pages from archived book listings at the Internet Archive website, following specific URL patterns. Due to restrictions on the website, the script is designed to download a limited number of pages per day to comply with viewing restrictions. It manages multiple URLs and tracks download progress over multiple days, storing each page's image in separate directories named after each book's unique identifier.
 
 ## Features
 
@@ -50,7 +50,3 @@ You need to download and set up a WebDriver for Selenium. This script uses Chrom
 
 ## Configuration
 No additional configuration is needed outside of the initial setup of the input file and ensuring the WebDriver is correctly installed.
-
-## Limitations
-The script adheres to the Internet Archive's 10-page preview limit per day to avoid violating terms of service.
-Changes in the webpage structure or URL format at the Internet Archive may require updates to the script.
