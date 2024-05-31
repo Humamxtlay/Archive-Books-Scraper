@@ -29,7 +29,7 @@ def main():
         pages_downloaded_today = 0
 
         stopLoading = False
-        while stopLoading == False:
+        while stopLoading == False and next_page <= data["total_pages"]:
             page_url = f"{url}/page/n{next_page}/mode/2up"
             if next_page == 0: page_url = url
 
